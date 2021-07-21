@@ -10,15 +10,15 @@ export const Content = styled.div`
   align-items: center;
   justify-content: space-between;
   max-width: var(--maxWidth);
-  padding: 20px 0;
+  padding: 15px 0;
   margin: 0 auto;
 `;
 
 export const LogoImg = styled.img`
-  width: 200px;
+  width: 150px;
 
   @media screen and (max-width: 500px) {
-    width: 150px;
+    width: 100px;
   }
 `;
 
