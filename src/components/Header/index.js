@@ -12,7 +12,7 @@ const Header = () => (
       <Link to="/">
         <LogoImg src={Movies} alt="movies" />
       </Link>
-      <a target="_blank" href="https://www.themoviedb.org/">
+      <a target="_blank" rel="noreferrer" href="https://www.themoviedb.org/">
         <TMDBLogoImg src={TMDBLogo} alt="tmdb-logo" />
       </a>
     </Content>
